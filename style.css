@@ -1,0 +1,46 @@
+.game {
+    width: 255px;
+text-align: center;
+font-family: sans-serif;
+color: rgb(9, 11, 12);
+
+margin: auto;
+margin-top: 3rem;
+
+
+}
+.title{
+    padding:  5px 0 ;
+    margin: 5px 0 ;
+    background: rgb(19, 187, 179);
+    font-size: 1.5rem;
+
+}
+
+.square {
+    width: 80px;
+    height: 90px;
+    background: paleturquoise;
+    float: left;
+    margin: 2px;
+          font-size: 2rem;
+          color: black;
+           display: flex;
+        justify-content: center;
+        align-items: center;
+     cursor: pointer;
+
+margin-top: 0.5rem;
+
+}
+
+
+
+.square:hover {
+    background: pink;
+}
+@media  screen and (min-width:1000px) {
+    body{
+        background:whitesmoke ;
+    }
+}
